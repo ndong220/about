@@ -113,14 +113,10 @@
     font-size: 15px;
     font-weight: 500;
   }
-  .nav__link:nth-child(8) {
-    font-weight: bold; /* làm cho chữ VN đậm */
+  .nav__bold {
+    color: #212529;
+    font-weight: 400;
   }
-  
-  .nav__link:nth-child(8)::after {
-    background: #868E96; /* làm cho chữ EN nhạt */
-  }
-  
   
   /* end menu */
 
