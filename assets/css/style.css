@@ -680,8 +680,9 @@ ul li.btn {
   }
 
   .content__images {
-    flex-direction: column; /* stack images vertically */
-    margin-left: 0; /* remove margin */
+    flex-direction: column; 
+    margin-left: 0;
+    width: 100%;
   }
 
   .content__image--large {
