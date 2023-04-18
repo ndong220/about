@@ -61,7 +61,7 @@ ul {
 }
 ul li {
   margin-right: 20px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding-top: 10px;
 }
 ul li a {
@@ -631,6 +631,7 @@ ul li.btn {
   .is-mobie nav {
     display: block;
     left: 0;
+    padding-left: 10px;
   }
   .is-mobie .mobie-icon .open {
     display: none;
@@ -648,13 +649,14 @@ ul li.btn {
     display: none;
   }
   nav {
+    overflow: scroll;
     position: fixed;
     left: 100%;
     top: 82px;
     background-color: #eeeeee;
     width: 100%;
     height: 100vh;
-    padding-top: 35px;
+    /* padding-top: 35px; */
     transition: left 0.3s linear;
   }
   nav ul {
@@ -674,9 +676,9 @@ ul li.btn {
   }
 
   .content__title {
-    font-size: 48px; /* reduce font size */
-    margin-bottom: 50px; /* reduce margin-bottom */
-    margin-top: 50px; /* reduce margin-top */
+    font-size: 48px;
+    margin-bottom: 50px;
+    margin-top: 50px; 
   }
 
   .content__images {
@@ -686,18 +688,18 @@ ul li.btn {
   }
 
   .content__image--large {
-    width: 100%; /* make image width 100% */
+    width: 100%;
     margin-bottom: 20px;
   }
 
   .content__images--small {
-    flex-basis: auto; /* remove fixed width */
-    margin-right: 0; /* remove margin */
+    flex-basis: auto;
+    margin-right: 0; 
   }
 
   .content__images--small img {
-    margin-left: 0; /* remove margin */
-    margin-bottom: 20px; /* increase margin-bottom */
+    margin-left: 0; 
+    margin-bottom: 20px;
   }
 
   .text-block__box,
@@ -705,7 +707,7 @@ ul li.btn {
   .text-block__box3,
   .text-block__box4,
   .text-block__box5 {
-    display: none; /* hide the boxes */
+    display: none;
   }
   /* slide */
   /* infomation */
@@ -838,6 +840,7 @@ ul li.btn {
     max-width: 350px;
     height: auto;
     margin-bottom: 40px;
+    margin-right: 0;
     background-color: #ffffff;
     box-shadow: 0px 20px 30px rgba(33, 37, 41, 0.08);
   }
@@ -864,7 +867,8 @@ ul li.btn {
     width: 90%;
     max-width: 350px;
     /* margin-bottom: 40px; */
-    height: 200px;
+    max-height: 200px;
+    height: 100%;
   }
 
   .introduce__title {
@@ -967,7 +971,7 @@ ul li.btn {
 
   .text-block__box2 {
     left: 20%;
-    top: 75%;
+    top: 60%;
   }
 
   .text-block__box3 {
